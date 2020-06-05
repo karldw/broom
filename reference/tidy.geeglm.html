@@ -43,6 +43,10 @@
 <script src="../pkgdown.js"></script>
 <link href="../tidyverse-2.css" rel="stylesheet">
 
+<!--optional theme-->
+<link href="../.css" rel="stylesheet">
+
+
 
 
 <meta property="og:title" content="Tidy a(n) geeglm object — tidy.geeglm" />
@@ -116,7 +120,7 @@ specify which components to return." />
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="../articles/adding-tidiers.html">Adding new tidiers</a>
+      <a href="https://www.tidymodels.org/learn/develop/broom/">Adding new tidiers</a>
     </li>
     <li>
       <a href="../articles/available-methods.html">Available methods</a>
@@ -246,8 +250,8 @@ missingness in the data beforehand.</p>
 #&gt;     fd(dose, parmMat[, 1], parmMat[, 2], parmMat[, 3], parmMat[, 
 #&gt;         4], parmMat[, 5])
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2aadb9ef0&gt;
-#&gt; &lt;environment: 0x7fd2b1c63d60&gt;
+#&gt; &lt;bytecode: 0x7f85fb4db708&gt;
+#&gt; &lt;environment: 0x7f8605169820&gt;
 #&gt; 
 #&gt; $ssfct
 #&gt; function (dframe) 
@@ -266,8 +270,8 @@ missingness in the data beforehand.</p>
 #&gt;     befVal &lt;- c(bVal, x[which.max(y)], 1)
 #&gt;     return(c(befVal[1], cdVal, befVal[2:3])[is.na(fixed)])
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2acad8a48&gt;
-#&gt; &lt;environment: 0x7fd2b1c42ba8&gt;
+#&gt; &lt;bytecode: 0x7f85f91bb568&gt;
+#&gt; &lt;environment: 0x7f8605166518&gt;
 #&gt; 
 #&gt; $names
 #&gt; [1] "b" "c" "d" "e" "f"
@@ -280,8 +284,8 @@ missingness in the data beforehand.</p>
 #&gt;     attr(fd(dose, parmMat[, 1], parmMat[, 2], parmMat[, 3], parmMat[, 
 #&gt;         4], parmMat[, 5]), "gradient")[, notFixed]
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2aadbc388&gt;
-#&gt; &lt;environment: 0x7fd2b1c63d60&gt;
+#&gt; &lt;bytecode: 0x7f85fb4de348&gt;
+#&gt; &lt;environment: 0x7f8605169820&gt;
 #&gt; 
 #&gt; $deriv2
 #&gt; NULL
@@ -307,8 +311,8 @@ missingness in the data beforehand.</p>
 #&gt;     attr(dFct(dose, parmMat[, 1], parmMat[, 2], parmMat[, 3], 
 #&gt;         parmMat[, 4], parmMat[, 5]), "gradient")
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2aadbef20&gt;
-#&gt; &lt;environment: 0x7fd2b1c63d60&gt;
+#&gt; &lt;bytecode: 0x7f85fb4e0ea8&gt;
+#&gt; &lt;environment: 0x7f8605169820&gt;
 #&gt; 
 #&gt; $edfct
 #&gt; function (parm, respl, reference, type, ...) 
@@ -343,8 +347,8 @@ missingness in the data beforehand.</p>
 #&gt;         parmVec[5]), "gradient")
 #&gt;     return(list(EDp, EDder[notFixed]))
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2aadc6c80&gt;
-#&gt; &lt;environment: 0x7fd2b1c63d60&gt;
+#&gt; &lt;bytecode: 0x7f85fb4e8af0&gt;
+#&gt; &lt;environment: 0x7f8605169820&gt;
 #&gt; 
 #&gt; $name
 #&gt; [1] "family"
@@ -361,8 +365,8 @@ missingness in the data beforehand.</p>
 #&gt;     parmVec[indexVec] &lt;- parm
 #&gt;     parmVec[parmNo]
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2c1e02638&gt;
-#&gt; &lt;environment: 0x7fd2b1c40f98&gt;
+#&gt; &lt;bytecode: 0x7f86147f1c50&gt;
+#&gt; &lt;environment: 0x7f86051679e0&gt;
 #&gt; 
 #&gt; $upperAs
 #&gt; function (parm) 
@@ -370,8 +374,8 @@ missingness in the data beforehand.</p>
 #&gt;     parmVec[indexVec] &lt;- parm
 #&gt;     parmVec[parmNo]
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2c1e02638&gt;
-#&gt; &lt;environment: 0x7fd2b1c41200&gt;
+#&gt; &lt;bytecode: 0x7f86147f1c50&gt;
+#&gt; &lt;environment: 0x7f8605167c48&gt;
 #&gt; 
 #&gt; $monoton
 #&gt; [1] NA

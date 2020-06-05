@@ -43,6 +43,10 @@
 <script src="../pkgdown.js"></script>
 <link href="../tidyverse-2.css" rel="stylesheet">
 
+<!--optional theme-->
+<link href="../.css" rel="stylesheet">
+
+
 
 
 <meta property="og:title" content="Glance at a(n) geeglm object — glance.geeglm" />
@@ -121,7 +125,7 @@ the measure will be reported as NA." />
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="../articles/adding-tidiers.html">Adding new tidiers</a>
+      <a href="https://www.tidymodels.org/learn/develop/broom/">Adding new tidiers</a>
     </li>
     <li>
       <a href="../articles/available-methods.html">Available methods</a>
@@ -235,8 +239,8 @@ the <code>data</code> argument.</p></td>
 #&gt;     fd(dose, parmMat[, 1], parmMat[, 2], parmMat[, 3], parmMat[, 
 #&gt;         4], parmMat[, 5])
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2aadb9ef0&gt;
-#&gt; &lt;environment: 0x7fd2acb9a010&gt;
+#&gt; &lt;bytecode: 0x7f85fb4db708&gt;
+#&gt; &lt;environment: 0x7f85f91c26b0&gt;
 #&gt; 
 #&gt; $ssfct
 #&gt; function (dframe) 
@@ -255,8 +259,8 @@ the <code>data</code> argument.</p></td>
 #&gt;     befVal &lt;- c(bVal, x[which.max(y)], 1)
 #&gt;     return(c(befVal[1], cdVal, befVal[2:3])[is.na(fixed)])
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2acad8a48&gt;
-#&gt; &lt;environment: 0x7fd2acdaf5d0&gt;
+#&gt; &lt;bytecode: 0x7f85f91bb568&gt;
+#&gt; &lt;environment: 0x7f85f91b93e0&gt;
 #&gt; 
 #&gt; $names
 #&gt; [1] "b" "c" "d" "e" "f"
@@ -269,8 +273,8 @@ the <code>data</code> argument.</p></td>
 #&gt;     attr(fd(dose, parmMat[, 1], parmMat[, 2], parmMat[, 3], parmMat[, 
 #&gt;         4], parmMat[, 5]), "gradient")[, notFixed]
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2aadbc388&gt;
-#&gt; &lt;environment: 0x7fd2acb9a010&gt;
+#&gt; &lt;bytecode: 0x7f85fb4de348&gt;
+#&gt; &lt;environment: 0x7f85f91c26b0&gt;
 #&gt; 
 #&gt; $deriv2
 #&gt; NULL
@@ -296,8 +300,8 @@ the <code>data</code> argument.</p></td>
 #&gt;     attr(dFct(dose, parmMat[, 1], parmMat[, 2], parmMat[, 3], 
 #&gt;         parmMat[, 4], parmMat[, 5]), "gradient")
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2aadbef20&gt;
-#&gt; &lt;environment: 0x7fd2acb9a010&gt;
+#&gt; &lt;bytecode: 0x7f85fb4e0ea8&gt;
+#&gt; &lt;environment: 0x7f85f91c26b0&gt;
 #&gt; 
 #&gt; $edfct
 #&gt; function (parm, respl, reference, type, ...) 
@@ -332,8 +336,8 @@ the <code>data</code> argument.</p></td>
 #&gt;         parmVec[5]), "gradient")
 #&gt;     return(list(EDp, EDder[notFixed]))
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2aadc6c80&gt;
-#&gt; &lt;environment: 0x7fd2acb9a010&gt;
+#&gt; &lt;bytecode: 0x7f85fb4e8af0&gt;
+#&gt; &lt;environment: 0x7f85f91c26b0&gt;
 #&gt; 
 #&gt; $name
 #&gt; [1] "family"
@@ -350,8 +354,8 @@ the <code>data</code> argument.</p></td>
 #&gt;     parmVec[indexVec] &lt;- parm
 #&gt;     parmVec[parmNo]
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2c1e02638&gt;
-#&gt; &lt;environment: 0x7fd2acd68488&gt;
+#&gt; &lt;bytecode: 0x7f86147f1c50&gt;
+#&gt; &lt;environment: 0x7f85f91ba838&gt;
 #&gt; 
 #&gt; $upperAs
 #&gt; function (parm) 
@@ -359,8 +363,8 @@ the <code>data</code> argument.</p></td>
 #&gt;     parmVec[indexVec] &lt;- parm
 #&gt;     parmVec[parmNo]
 #&gt; }
-#&gt; &lt;bytecode: 0x7fd2c1e02638&gt;
-#&gt; &lt;environment: 0x7fd2acd68220&gt;
+#&gt; &lt;bytecode: 0x7f86147f1c50&gt;
+#&gt; &lt;environment: 0x7f85f91b6b90&gt;
 #&gt; 
 #&gt; $monoton
 #&gt; [1] NA
